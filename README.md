@@ -20,7 +20,7 @@ This seminar introduces new assessment tools designed to measure learning outcom
 - [Indirect Assessment--CUSP Survey (Link)](https://pennstate.qualtrics.com/jfe/form/SV_73utHIevHKBFBiJ)
 - [Direct Assessment--CUSP Test Instructor Preview (Link)](https://pennstate.qualtrics.com/jfe/form/SV_09cemM9ifT96qoZ)
     - **Instructor preview not for classroom use**
-    - email to request access password for instructor preview
+    - email to request access password preview
     - email to arrange dedicated link prior to classroom use
 - [Indirect Assessment--Faculty Perception of SPECs (Link)](https://pennstate.qualtrics.com/jfe/form/SV_0PR5EHHHm08v6WV)  
 
