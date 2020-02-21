@@ -8,32 +8,3 @@ output: html_notebook
 This seminar introduces new assessment tools designed to measure learning outcomes of students upon completion of an undergraduate statistics program (e.g. majors) against 96 competencies endorsed by the American Statistical Association.  In short, these assessment tools sought to (1) measure student learning outcomes with respect to program objectives; (2) facilitate year-over-year comparisons to inform continuous improvement of the program/major; (3) search for indications of competencies not explicitly included in the program/major acquired by students through extracurricular experiences.  The seminar will remark on pilot data from Senior/Capstone undergraduate statistics students at several different institutions around the US, early work contrasting these data with faculty expectations as a means for program evaluation, and future goals toward a more complete assessment portfolio.
 
 
-- Assessment tool aligned to 2014 ASA Guidelines
-- pilot (test) data from 4 institutions 
-- survey data for students to self-report
-- intended use
-    - benchmarking student skills and competancies against ASA Guidelines
-    - identifying general areas of need prior to graduation
-    - program evaluation: are students learning what we think we're teaching them
-    - LOA for program evaluation
-
-
-
-
-
-Develop an assessment strategy to measure learning outcomes of students in undergraduate statistics programs (e.g. majors) against the competencies recommended in the ASA Guidelines for Undergraduate Programs in Statistical Sciences.
-
-
-### Subgoals
-
-- Measure how well students have learned what we think we're teaching them
-- Discover whether students are learning things we aren't explicitly teaching them
-- Facilitate comparisons (e.g. year to year)
-
-
-### Project Constraints
-
-- Alignment to ASA Curriculum Guidelines
-- Comprehensive in scope
-- Useful across institutions 
-
