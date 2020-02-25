@@ -62,11 +62,7 @@ library(kableExtra)
 
 # Comprehensive Undergraduate Statistics Program (CUSP) Assessment Strategy
 
-- [Test Blueprint (Link)](https://mdbeckman.github.io/2020-UMN-Colloquium/)
-- 95 competencies cited in 2014 ASA Guidelines  
-- single assessment tool likely not sufficient
-
-| # Competencies | ASA Guidelines Topic | 
+| # Competencies | (2014) ASA Guidelines Areas of Emphasis | 
 |:--------------:|:-----------|
 | 37 |  Statistical Methods & Theory |
 | 16 |  Data Wrangling, Computing, & Data Science |
@@ -74,6 +70,10 @@ library(kableExtra)
 | 18 |  Statistical Practice |
 | 9  |  Problem Solving |
 | 4  |  Discipline-Specific Knowledge |
+
+- 95 competencies cited in 2014 ASA Guidelines  
+- Single assessment tool likely not sufficient
+- [Test blueprint (Link to resource page)](https://mdbeckman.github.io/2020-UMN-Colloquium/)
 
 
 # Comprehensive Undergraduate Statistics Program (CUSP) Assessment Map
@@ -95,19 +95,17 @@ library(kableExtra)
     - single institution; single implementation (Spring 2020)
     - scale: {incidental; T shows; S does; Assessed}
 
-# Indirect assessment--CUSP Survey 
+# [Indirect assessment--CUSP Survey](https://mdbeckman.github.io/2020-UMN-Colloquium/)
 
 - **Benefits**
     - easy implementation
     - may administer multiple times  
     - no problem if topics haven't been taught
-    - includes limited demographics
+    - includes demographics that can be linked to other instruments
 - **Risks/Issues**
     - lexical ambiguity issues
     - over/underconfidence with content exposure
     - reflection of affect vs knowledge? (Sitzman et al., 2010)
-- [Indirect Assessment (Survey Link)](https://mdbeckman.github.io/2020-UMN-Colloquium/)
-
 
 ### Excerpt
 
@@ -116,11 +114,11 @@ library(kableExtra)
 # Example Use 
 
 - Indirect assessment tool (i.e., Survey) administered at key program milestones
-    - first-year seminar
+    - first-year course
     - midpoint course(s)--if possible
     - beginning & end of capstone course
 - Informative for annual program evaluation data
-    - requires due caution about interpretation (e.g., Sitzman et al., 2010)
+    - due caution about interpretation (e.g., Sitzman et al., 2010)
     - most effective when corroborated by other tools
 
 
@@ -129,7 +127,7 @@ library(kableExtra)
 - *Indirect assessment--CUSP Survey*
 - **Next: Direct assessment--CUSP Test**
     - selected response test
-    - approx. 1 hour duration
+    - $\sim$ 1 hour duration
     - multiple institutions w. single cohort
     - single institution w. multiple cohorts
 - Indirect assessment--Faculty Perception of SPECs
@@ -143,8 +141,8 @@ library(kableExtra)
     - 9 testlets  
     - 24 conventional MC questions
 - several tasks/subtasks assess multiple competancies
-    - score adjustment for successive competancies (1, 1/2, 1/4, ...)
-    - 86 points possible
+    - score adjustment for successive competancies
+    - 86 'points possible'
 - some tasks adpted from other instruments (with permission)
     - 2 from the REGRESS assessment (Enders, 2013) 
     - 9 from the CAOS assessment (delMas et al., 2007)
@@ -171,12 +169,14 @@ library(kableExtra)
         - for individual students
         - for a cohort of students
         - aggregate useful for program evaluation
-    - Easy implementation
+    - selected response implementation
 - **Risks/Issues**
-    - Variable use conditions may jeopardize comparisons
-    - Scope constrained by test fatigue
-    - Includes topics we don't necessarily teach
-    - Longer to implement 
+    - variable use conditions jeopardize comparisons
+    - implementation logistics restrict scope
+        - duration/content coverage
+        - selected response
+    - includes topics we don't necessarily teach (yet)
+    - too lengthy/difficult to implement without incentive
 
 
 
@@ -222,7 +222,7 @@ library(kableExtra)
 
 # Indirect assessment--Faculty Perception of SPECs
 
-- Statistics Program Emphasis and Contents (SPECs)
+- Statistics Program Emphases and Contents (SPECs)
 - Indirect assessment
     - program emphasis self-reported by faculty/administrator 
     - same 95 topics from ASA Guidelines
@@ -298,9 +298,8 @@ library(kableExtra)
 <https://mdbeckman.github.io/2020-UMN-Colloquium/>
 
 
-# Backup slides
 
-### CUSP Test blueprint alignment to ASA Guidelines
+# CUSP Test blueprint alignment to ASA Guidelines
 
 ![](CUSP_Weights.png){ width=95% }
 
@@ -310,7 +309,7 @@ library(kableExtra)
 ![](Scree_Plot_Dimensionality.png){ width=80% }
 
 
-# item discrimination
+# Item discrimination results
 
 - Item-total correlations $r_{it(j)} < 0.15$
     - (21% correct; $r_{it(j)} = 0.11$) Validity of models aligned to a study design
