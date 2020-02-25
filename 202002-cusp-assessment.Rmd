@@ -35,23 +35,24 @@ library(kableExtra)
 - Paul Roback (Saint Olaf College)
 
 
-# Assessment Outline  
+# Overview  
 
-- **Goal: Evaluate learning outcomes of students upon completion of undergraduate statistics program (e.g. major)**
-    - snapshot of learning outcomes  
-    - cohort comparisons  
+- **Goal: Evaluate student outcomes upon completion of undergraduate statistics program (e.g. major)**
     - comprehensive scope
+    - snapshot of student outcomes  
+    - cohort comparisons  
 - Constraints
     - faithful to (2014) ASA Curriculum Guidelines[^1]
     - applicable across institutions, instructors, years 
-- Status
-    - two assessment tools to capture student data
-        - indirect & direct assessment
+- Assessment instruments
+    - student assessment instruments
+        - indirect assessment (i.e., survey)
+        - direct assessment (i.e., test)
         - multi-year pilot data collection ongoing
-        - promising psychometric quality
-    - faculty survey for triangulation
+    - faculty survey--proxy for program emphasis
+        - new in Spring 2020
 
-[^1]: American Statistical Association Undergraduate Guidelines Workgroup (2014). 2014 Curriculum guidelines for undergraduate programs in statistical science. Alexandria, VA: American Statistical Association. http://www.amstat.org/education/curriculumguidelines.cfm
+[^1]: American Statistical Association Undergraduate Guidelines Workgroup (2014). *Curriculum guidelines for undergraduate programs in statistical science.*
 
 
 # (2014) ASA Guidelines for Undergraduate Programs in Statistical Sciences
@@ -61,7 +62,7 @@ library(kableExtra)
 
 # Comprehensive Undergraduate Statistics Program (CUSP) Assessment Strategy
 
-- [Test Blueprint (Link)](https://bit.ly/2lGxurK)
+- [Test Blueprint (Link)](https://mdbeckman.github.io/2020-UMN-Colloquium/)
 - 95 competencies cited in 2014 ASA Guidelines  
 - single assessment tool likely not sufficient
 
@@ -71,38 +72,41 @@ library(kableExtra)
 | 16 |  Data Wrangling, Computing, & Data Science |
 | 11 |  Mathematical Foundations |
 | 18 |  Statistical Practice |
-| 9  | Problem Solving |
-| 4  | Discipline-Specific Knowledge |
+| 9  |  Problem Solving |
+| 4  |  Discipline-Specific Knowledge |
 
 
 # Comprehensive Undergraduate Statistics Program (CUSP) Assessment Map
 
-- Indirect assessment--CUSP Survey
-    - inventory of all 95 competancies cited in ASA Guidelines  
-    - survey data self-reported by students
-    - approx. 10-15 minutes duration
+- CUSP Survey--Indirect assessment (students)
+    - self-evaluated survey
+    - all 95 competancies in (2014) ASA Guidelines  
+    - $\sim$ 10-15 minutes duration
     - single institution w. multiple cohorts
-- Direct assessment--CUSP Test
+- CUSP Test--Direct assessment (students)
     - selected response test
-    - approx. 1 hour duration
+    - prioritized subset of the 95 competencies
+    - $\sim$ 1 hour duration
     - multiple institutions w. single cohort
     - single institution w. multiple cohorts
-- Indirect assessment--Faculty SPECs
+- Faculty Perception of SPECs--Indirect assessment (program)
     - program emphasis self-reported by faculty 
-    - same 95 topics from ASA Guidelines
+    - all 95 competancies in (2014) ASA Guidelines  
+    - single institution; single implementation (Spring 2020)
     - scale: {incidental; T shows; S does; Assessed}
 
 # Indirect assessment--CUSP Survey 
 
 - **Benefits**
-    - Easy implementation
-    - Can administer multiple times (beginning/middle/end) during program  
-    - No problem including topics we don't teach
-    - Includes demographics
+    - easy implementation
+    - may administer multiple times  
+    - no problem if topics haven't been taught
+    - includes limited demographics
 - **Risks/Issues**
-    - Reliability of self-reporting 
-    - Over/Underconfidence with content exposure
-- [Indirect Assessment (Survey Link)](https://pennstate.qualtrics.com/jfe/form/SV_73utHIevHKBFBiJ)
+    - lexical ambiguity issues
+    - over/underconfidence with content exposure
+    - reflection of affect vs knowledge? (Sitzman et al., 2010)
+- [Indirect Assessment (Survey Link)](https://mdbeckman.github.io/2020-UMN-Colloquium/)
 
 
 ### Excerpt
@@ -128,7 +132,7 @@ library(kableExtra)
     - approx. 1 hour duration
     - multiple institutions w. single cohort
     - single institution w. multiple cohorts
-- Indirect assessment--Faculty SPECs
+- Indirect assessment--Faculty Perception of SPECs
 - Future work
 
 
@@ -142,17 +146,14 @@ library(kableExtra)
     - score adjustment for successive competancies (1, 1/2, 1/4, ...)
     - 86 points possible
 - some tasks adpted from other instruments (with permission)
-    - 2 from the REGRESS assessment[^2] 
-    - 9 from the CAOS assessment[^3]
+    - 2 from the REGRESS assessment (Enders, 2013) 
+    - 9 from the CAOS assessment (delMas et al., 2007)
 
-[^2]: Enders, F. (2013). Do clinical and translational science graduate students understand linear regression? Development and early validation of the REGRESS quiz. *Clinical and Translational Science, 6*(6).  p. 444-451. 
-
-[^3]: delMas, R., Garfield, J., Ooms, A., Chance, B. (2007). Assessing students' conceptual understanding after a first course in statistics.  *Statistics Education Research Journal, 6*. p. 28-58.
 
 
 # CUSP Test 
 
-- [Instructor Preview (link)](https://pennstate.qualtrics.com/jfe/form/SV_09cemM9ifT96qoZ)
+- [Instructor Preview (link)](https://mdbeckman.github.io/2020-UMN-Colloquium/)
     - **preview is not for classroom use**
     - password protected 
 
@@ -195,32 +196,31 @@ library(kableExtra)
 
 # Preliminary Item Analysis
 
-- Heuristics[^4]
-    - Unidimensionality assumed by common methods of assessment evaluation
-    - Cronbach alpha (reliability)
-    - descrimination > 0.15 preferred 
+- Heuristics[^2] 
+    - unidimensionality: assumed by common methods of assessment evaluation
+    - reliability: coefficient alpha > 0.8
+    - descrimination $r_{it(i)} > 0.15$ preferred 
     - 0.6 < proportion correct < 0.9
 - Results
     - PCA evidence supports unidimensionality
-    - Cronbach alpha = 0.81
-    - 30/33 items with discrimination > 0.15
+    - coefficient alpha = 0.802
+    - 30/33 items with discrimination $r_{it(i)} > 0.15$
     - 9/33 items in recommended difficulty range
     - 21/33 items with > 50% correct
 
-[^4]: Haladyna, T. M., & Rodriguez, M. C. (2013). *Developing and validating test items*. Routledge: New York.
-
+[^2]: Haladyna & Rodriguez (2013); Thorndike & Thorndike-Christ (2010)
 
 # Comprehensive Undergraduate Statistics Program (CUSP) Assessment Map
 
 - *Indirect assessment--CUSP Survey*
 - *Direct assessment--CUSP Test*
-- **Next: Indirect assessment--Faculty SPECs**
+- **Next: Indirect assessment--Faculty Perception of SPECs**
     - program emphasis self-reported by faculty 
     - same 95 topics from ASA Guidelines
     - scale: {incidental; T shows; S does; Assessed}
 - Future work
 
-# Faculty Perception of SPECs
+# Indirect assessment--Faculty Perception of SPECs
 
 - Statistics Program Emphasis and Contents (SPECs)
 - Indirect assessment
@@ -274,9 +274,28 @@ library(kableExtra)
     - Mary Beth Williams
 
 
+# References
+
+\footnotesize
+
+1. American Statistical Association Undergraduate Guidelines Workgroup (2014). 2014 Curriculum guidelines for undergraduate programs in statistical science. Alexandria, VA: American Statistical Association. http://www.amstat.org/education/curriculumguidelines.cfm
+
+#. delMas, R., Garfield, J., Ooms, A., Chance, B. (2007). Assessing students' conceptual understanding after a first course in statistics.  *Statistics Education Research Journal, 6*, 28-58.
+
+#. Enders, F. (2013). Do clinical and translational science graduate students understand linear regression? Development and early validation of the REGRESS quiz. *Clinical and Translational Science, 6*(6), 444-451. 
+
+#. Haladyna, T. M., & Rodriguez, M. C. (2013). *Developing and validating test items*. Routledge: New York.
+
+#. Sitzman, T., Ely, K., Brown, K., & Bauer, K. (2010). Self-Assessment of Knowledge: A Cognitive Learning or Affective Measure? *Academy of Management Learning & Education, 9*(2), 169-191. 
+
+#. Thorndike, R. M. & Thorndike-Christ, T. (2010). *Measurement and evaluation in psychology and education.* Pearson: New York.
+
+
+# Q & A
 
 \titlepage
 
+<https://mdbeckman.github.io/2020-UMN-Colloquium/>
 
 
 # Backup slides
@@ -291,16 +310,16 @@ library(kableExtra)
 ![](Scree_Plot_Dimensionality.png){ width=80% }
 
 
-# Item discrimination
+# item discrimination
 
-- Item discrimination < 0.15
-    - (21% correct) Validity of models aligned to a study design
-    - (3.6% correct) Strategies to maximize likelihood
-    - (40% correct) CAOS task about CI interpretation
-- Best item discrimination
-    - (discrim = 0.59) Probability distributions task 
-    - (discrim = 0.50) Histograms & std deviation task
-    - (discrim = 0.46) OLS regression assumptions task
+- Item-total correlations $r_{it(j)} < 0.15$
+    - (21% correct; $r_{it(j)} = 0.11$) Validity of models aligned to a study design
+    - (40% correct; $r_{it(j)} = -0.04$) CAOS task about CI interpretation
+    - (3.6% correct; $r_{it(j)} = -0.10$) Strategies to maximize likelihood
+- Highly discriminating items
+    - ($r_{it(j)} = 0.59$) Probability distributions task 
+    - ($r_{it(j)} = 0.50$) CAOS Histograms & std deviation task
+    - ($r_{it(j)} = 0.46$) OLS regression assumptions task
 
 
 ![](Q20.png){ width=80% }
