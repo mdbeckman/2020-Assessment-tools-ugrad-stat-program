@@ -230,6 +230,26 @@ library(kableExtra)
 ![](FacultySPECs.png){ width=80% }
 
 
+# Faculty perception of SPECs assessment
+
+- **Benefits**
+    - reflects operational priorities of the program
+    - potential for comparison of priorities across institutions
+    - alignment of multiple assessments may inform different recommendations
+- **Risks/Issues**
+    - implementation logistics
+        - single program administrator vs wider faculty
+        - course-by-course or holistic completion
+    - response scale differeneces
+
+- [Preliminary summaries (PDF)](CUSP_Summaries.pdf)
+    - includes data from all three assessment instruments
+    - rough sketch to illustrate a few possible summaries
+        - all 95 competencies
+        - bivariate comparisons of assessment results
+        - tabulated summaries by subsection
+
+
 # Comprehensive Undergraduate Statistics Program (CUSP) Assessment Map
 
 - *Indirect assessment--CUSP Survey*
@@ -243,7 +263,7 @@ library(kableExtra)
 ### Shorter term goals
 
 - Post-graduation follow-up for validation evidence
-- Link CUSP Survey data to CUSP Test outcomes  
+- Link CUSP Survey data to CUSP Test outcomes (i.e., match cases) 
 - Streamline logistics for wider implementation 
 - Expand item bank for direct assessment
 
